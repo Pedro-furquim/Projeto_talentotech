@@ -7,6 +7,25 @@ import os
 # Caminho para o arquivo de persistência
 ARQUIVO_TAREFAS = "tarefas.json"
 
+# Gerenciador de Tarefas
+
+## Descrição
+Este é um gerenciador de tarefas simples que permite ao usuário:
+- Listar tarefas.
+- Adicionar novas tarefas.
+- Marcar tarefas como concluídas.
+
+## Funcionalidades Planejadas
+1. Interface de linha de comando para gerenciar tarefas.
+2. Persistência dos dados em um arquivo JSON.
+3. Opção de filtrar tarefas concluídas e pendentes.
+
+## Cronograma de Desenvolvimento
+1. **Dia 1:** Configurar ambiente e repositório.
+2. **Dia 2:** Implementar funcionalidade de listar e adicionar tarefas.
+3. **Dia 3:** Implementar funcionalidade de marcar tarefas como concluídas.
+4. **Dia 4:** Documentar e testar.
+
 
 class GerenciadorTarefas:
     def __init__(self):
