@@ -104,14 +104,10 @@ if __name__ == "__main__":
     gerenciador.executar()
 
 
-import json
-import os
-
-# Caminho para o arquivo de persistência
-ARQUIVO_TAREFAS = "tarefas.json"
 
 
-class GerenciadorTarefas:
+
+    class GerenciadorTarefas:
     def __init__(self):
         # Inicializa as tarefas a partir do arquivo ou cria uma lista vazia
         self.tarefas = self.carregar_tarefas()
