@@ -183,6 +183,6 @@ if __name__ == "__main__":
                 print("Opção inválida. Tente novamente.")
 
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     gerenciador = GerenciadorTarefas()
     gerenciador.executar()
