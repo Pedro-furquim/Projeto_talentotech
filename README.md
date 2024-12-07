@@ -22,7 +22,7 @@ Este é um gerenciador de tarefas simples que permite ao usuário:
 4. **Dia 4:** Documentar e testar.
 
 
-"""class GerenciadorTarefas:"""
+    class GerenciadorTarefas:
     def __init__(self):
         # Inicializa as tarefas a partir do arquivo ou cria uma lista vazia
         self.tarefas = self.carregar_tarefas()
