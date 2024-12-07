@@ -13,7 +13,7 @@ Este é um gerenciador de tarefas simples que permite ao usuário:
 ## Funcionalidades Planejadas
 1. Adicionar opção de editar tarefas.
 2. Permitir exclusão de tarefas.
-3. Implementar interface gráfica ou API.
+3. Implementar interface gráfica.
 
 ## Cronograma de Desenvolvimento
 1. **Dia 1:** Configurar ambiente e repositório.
