@@ -1,11 +1,6 @@
 # Projeto_talentotech
 Projeto do Talentotech 
 
-import json
-import os
-
-# Caminho para o arquivo de persistência
-ARQUIVO_TAREFAS = "tarefas.json"
 
 # Gerenciador de Tarefas
 
@@ -16,9 +11,9 @@ Este é um gerenciador de tarefas simples que permite ao usuário:
 - Marcar tarefas como concluídas.
 
 ## Funcionalidades Planejadas
-1. Interface de linha de comando para gerenciar tarefas.
-2. Persistência dos dados em um arquivo JSON.
-3. Opção de filtrar tarefas concluídas e pendentes.
+1. Adicionar opção de editar tarefas.
+2. Permitir exclusão de tarefas.
+3. Implementar interface gráfica ou API.
 
 ## Cronograma de Desenvolvimento
 1. **Dia 1:** Configurar ambiente e repositório.
